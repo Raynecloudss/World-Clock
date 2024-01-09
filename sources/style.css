@@ -1,5 +1,22 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #cd2c6c;
+  padding: 75px;
+  margin: 50px auto;
+  box-shadow: 10px 10px 10px #a21942;
+  border-radius: 20px;
+}
+
 body {
   background: pink;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  padding: 7px;
 }
 
 h1 {
