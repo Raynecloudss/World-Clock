@@ -8,6 +8,33 @@
   border-radius: 20px;
 }
 
+.date {
+  opacity: 0.8;
+}
+
+.time {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 1px dashed lightblue;
+}
+
+.city:last-child {
+  border-bottom: none;
+}
+
 body {
   background: pink;
 }
